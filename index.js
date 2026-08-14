@@ -2113,5 +2113,10 @@ app.get('/api/stats', requireAuth, async (req, res) => {
         console.log(`${cyan}📖 /api/health | /api/leaderboard | /api/attendance | /api/mvp | /api/stats${reset}`);
     });
 
+    // 🔍 ปริ้นท์เช็กค่าที่ Railway อ่านได้ใน Terminal Logs
+    console.log('--- CHECK ENVIRONMENT VARIABLES ---');
+    console.log('DISCORD_TOKEN จาก Railway คือ:', process.env.DISCORD_TOKEN);
+    console.log('------------------------------------');
+
     client.login(process.env.DISCORD_TOKEN);
 })();

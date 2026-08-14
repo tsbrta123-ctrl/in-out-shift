@@ -2113,5 +2113,5 @@ app.get('/api/stats', requireAuth, async (req, res) => {
         console.log(`${cyan}📖 /api/health | /api/leaderboard | /api/attendance | /api/mvp | /api/stats${reset}`);
     });
 
-    client.login(BOT_TOKEN);
+    client.login(process.env.DISCORD_TOKEN);
 })();

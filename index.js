@@ -51,7 +51,7 @@ require('dotenv').config();
 
 const API_PORT   = 3000;
 const API_SECRET = 'MLTHSBDCT'; // เปลี่ยนใน .env ด้วย # API_SECRET=Military-Life-Thailand-Staff-Bot-Developer-Check-Time
-const BOT_TOKEN = 'MTUzNzg4OTc0OTYzOTg4OTA0MA.GA_AyF.7yj5a6ESe_Oh5qEiw8anJXuUYkgUjE8HHw_fHI';
+const BOT_TOKEN = '';
 
 const GALLERY_IMAGES = {
     banner:      'https://cdn.discordapp.com/attachments/1422474011706785903/1434045800094105630/IMG_5189.gif?ex=698eb13a&is=698d5fba&hm=4f24776effc468e6311db8fcba3d28336dc91103e451828dbea67424b6cda647&',

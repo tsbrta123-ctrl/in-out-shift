@@ -45,6 +45,7 @@ const fs       = require('fs');
 
 require('dotenv').config();
 
+console.log('TOKEN STATUS:', process.env.DISCORD_TOKEN ? 'พบ Token แล้ว' : 'ยังไม่พบ Token (undefined)');
 // ══════════════════════════════════════════════════════════════════════════════
 //  ⚙️  CONFIG
 // ══════════════════════════════════════════════════════════════════════════════
